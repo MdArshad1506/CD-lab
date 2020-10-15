@@ -26,7 +26,7 @@ for(i=0;i<strlen(ch);i++)
 if((ch[i]>'0')&&(ch[i]<='9'))
 continue;
 else
-err("Illegal character sequence in place of factor.");
+err("Illegal character sequence in place of factor .");
 }
 val=atoi(ch);
 }
